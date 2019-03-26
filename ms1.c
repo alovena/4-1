@@ -1,3 +1,4 @@
+//Proteus 8 Л═└Й╣╛ Й╧°К╧║Л²╢К┼■ Л╫■К⌠° * Л╧╢М▌≤ Л╟╦Л║╟Й╟─К┼╔
 #include <inttypes.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
@@ -18,13 +19,13 @@ int main()
 			PORTD = cnt;
 			cnt++;
 			_delay_ms(1000);
-			//б╕╪Ж 
+			//Л╖²Л┬≤ 
 		}
 		else {
 			PORTA = 255 - cnt;
 			cnt++;
 			_delay_ms(1000);
-			//х╕╪Ж dn
+			//М≥─Л┬≤ dn
 		}
 		/*
 		PORTA = ~PORTA;
@@ -33,8 +34,8 @@ int main()
 		PORTD = 0x55;
 		_delay_ms(200);
 		PORTD = 0xaa;
-		_delay_ms(200); //╧п╦╝ем╦╝ ╪╪да╣Е
-		_delay_us(500); //╦╤юле╘╥н ╪╪да╣Е
+		_delay_ms(200); //К╟─К╕╛М└╟К╕╛ Л└╦Л╩╗К⌠°
+		_delay_us(500); //К╖┬Л²╢М│╛К║° Л└╦Л╩╗К⌠°
 		*/
 
 	}
