@@ -1,5 +1,4 @@
-
-
+//https://www.tinkercad.com 전자키트 아두이노 실습 코드 전구 2개 깜빡거리기!
 #define out(pin,val) digitalWrite(pin,val)
 
 
